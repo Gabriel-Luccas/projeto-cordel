@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+
+:root {
+  --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+  --fonte2: "Passion One", cursive;
+  --fonte3: "Sriracha", cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: var(--fonte3);
+}
+
+body {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.header {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  background-color: black;
+  padding: 40px;
+}
+.titlle {
+  align-self: center;
+  font-family: var(--fonte2);
+  font-size: 8vw;
+  font-variant: small-caps;
+}
+.author {
+  color: #ffffff;
+}
+.author:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.white {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  line-height: 2em;
+  padding-left: 30px;
+  font-family: var(--fonte3);
+  font-size: 3.5vw;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-shadow: 1px 1px 1px;
+}
+.img {
+  background-image: url(backgrounds/background001.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: right center;
+  box-shadow: inset 10px 10px 10px 0px black;
+}
+.black {
+  display: inline-block;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  line-height: 2em;
+  padding-left: 30px;
+  font-family: var(--fonte3);
+  font-size: 3.5vw;
+  background-color: #00000083;
+  color: #ffffff;
+  padding: 15px;
+}
+.transparent {
+  background-image: url(backgrounds/background002.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  box-shadow: inset 10px 10px 13px 0px black;
+}
+.trans-p {
+  padding: 15px;
+  display: inline-block;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  line-height: 2em;
+  padding-left: 30px;
+  font-family: var(--fonte3);
+  font-size: 3.5vw;
+  background-color: #00000083;
+  color: #ffffff;
+}
+footer {
+  align-self: center;
+  text-align: center;
+  background-color: black;
+  color: #ffffff;
+}
+.footer a {
+  color: #ffffff;
+}
